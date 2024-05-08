@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* font-family: "Nunito",
+sans-serif;
+font-optical-sizing: auto;
+font-weight: 200-1000;
+font-style: normal; */
+*{
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.main-container {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20.5%;
+    margin-right: 20.5%;
+
+}
+
+.h1-header {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 100px;
+    width: 90%;
+    border-radius: 10px;
+    border: solid 3px #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.header-input {
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin: -2px;
+    border-radius: 5px;
+    border-color: #ccc;
+    border-style: solid;
+    background: none;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgInput {
+    height: 38px;
+    width: 40px;
+    margin: -1px;
+    border-radius: 5px;
+    margin-block-start: -3px;
+}
+
+.div-btn-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-header {
+    height: 38px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 25px;
+    background-color: #10A4B6ff;
+    text-align: center;
+    color: #fff
+}
+
+.btn-header:hover {
+    background-color: rgb(2, 88, 99);
+}
+
+.container2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btns-tdlist {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-all {
+    height: 38px;
+    width: 30%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #10A4B6ff;
+    color: #fff;
+}
+
+.btn-all:hover {
+    background-color: rgb(2, 88, 99);
+}
+
+.btn-done {
+    height: 38px;
+    width: 30%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #10A4B6ff;
+    color: #fff;
+}
+
+.btn-done:hover {
+    background-color: rgb(2, 88, 99);
+}
+
+.btn-todo {
+    height: 38px;
+    width: 30%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #10A4B6ff;
+    color: #fff;
+}
+
+.btn-todo:hover {
+    background-color: rgb(2, 88, 99);
+}
+
+.frame {
+    max-width: 80%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 3px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20.5%;
+    margin-right: 20.5%;
+}
+
+.container-tasks {
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 15px;
+    border: solid 3px #ccc;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.task-text {
+    max-width: 80%;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    word-break: break-all;
+}
+
+.task-text1{
+    text-transform: capitalize;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    text-decoration: line-through;
+}
+
+.checkbox-done {
+    padding: -5px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background: none;
+}
+
+.btn-edit {
+    justify-content: right;
+    font-size: 20px;
+    border-style: none;
+    cursor: pointer;
+    background: none;
+}
+
+.btn-delete {
+    justify-content: right;
+    font-size: 20px;
+    border-style: none;
+    cursor: pointer;
+    background: none;
+}
+
+.btns-footer{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.delete-all-tasks{
+    width: 49%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #F02D3A;
+    color: #fff;
+}
+.delete-done-tasks{
+    width: 49%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #F02D3A;
+    color: #fff;
+}
